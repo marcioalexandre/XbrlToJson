@@ -30,7 +30,7 @@ public class index {
 		
 		//loading Financial report to in-memory Java Class
 		JeasyXbrl jxbrl = new JeasyXbrl();
-		jxbrl.loadingInstancesInCache(instanceList, labelList, null, null, null, null, null, 0);
+		jxbrl.loadingInstancesInCache(instanceList, labelList, null, null, null, null, null, 1);
 		ArrayList<XbrlInstance> xbrlList = jxbrl.getXbrlInstanceListByCache();
 		//From in-memory Java Class to Json
 		Gson gson = new Gson();
