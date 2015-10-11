@@ -1,0 +1,10 @@
+XbrlToJson. Informations about utilized libraries:
+
+JeasyXBRL is also a free and opensource library. It's a java-based version of easyXBRL (that is based on python). JeasyXBRL gets financial data from navitve XBRL files and put them in memory (as java classes), it requires the Guava-18.0 library for working.
+https://github.com/marcioalexandre/jeasyxbrl/wiki
+
+Guava and Gson are free and opensource library from Google, the first one manages data in cache and another one can get in-memory java classes and put them in Json format. You can read more about both on the links:
+https://github.com/google/guava
+https://github.com/google/gson
+
+$Doubt{ [marcio.alexandre83@gmail.com] }
